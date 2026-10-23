@@ -1,5 +1,7 @@
 # CalibrationFreeBCI
 
+[![Tests](https://github.com/manaal007/CalibrationFreeBCI/actions/workflows/tests.yml/badge.svg)](https://github.com/manaal007/CalibrationFreeBCI/actions/workflows/tests.yml)
+
 Reproducible CPU research on left-versus-right motor imagery EEG decoding across participants and datasets, without supervised target calibration. Works with local data on Windows/PyCharm.
 
 **Current external evidence:** In a frozen, provisional BNCI-to-PhysioNet evaluation on five participants, aligned CSP achieved **60.4% participant-mean balanced accuracy** (95% participant-bootstrap interval **43.3–76.6%**) versus **56.1%** for RMS/CSP. The paired improvement interval includes zero; reliable population-level improvement is **not established**. Prior participant exposure was not confirmed, so these results are not called confirmatory.
@@ -13,6 +15,8 @@ The original experiments are preserved. A corrected, supported package replaces 
 Use Python 3.12. From the repository root in PowerShell:
 
 ```powershell
+# For a fresh clone; skip creation if PyCharm already configured .venv
+py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
 .\.venv\Scripts\python.exe -m pip install -e .
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
@@ -100,6 +104,7 @@ Each experiment saves its protocol before fitting, raw-file hashes, participant 
 - [Verified source/alignment and exploratory transfer results](results/final_v3/validated/alignment_report/REPORT.md)
 - [Corrected nested comparison, including negative findings](results/final_v3/validated/nested_report/REPORT.md)
 - [Reproduction checks](results/final_v3/validated/verification.json)
+- [Scientific weaknesses and proposed next experiment](docs/RESEARCH_REVIEW.md)
 - [Independent protocol](docs/CONFIRMATORY_PROTOCOL.md)
 - [Original preservation and checksum](PRESERVATION.md)
 

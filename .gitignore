@@ -27,3 +27,17 @@ rescue_before_*.zip
 .env
 .env.*
 !.env.example
+.aws/
+.ssh/
+.cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.tmp
+*.temp
+*.pem
+*.key
+*.pfx
+*.p12

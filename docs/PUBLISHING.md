@@ -30,5 +30,9 @@ Do not advertise reliable cross-dataset performance as established. The provisio
 five-participant PhysioNet comparison has wide uncertainty and below-chance
 participants. Its cohort history remains unconfirmed. Preserve the full results.
 
-No GitHub repository or remote URL was supplied, so no remote repository was
-created and no push has been performed.
+The publication target is
+[manaal007/CalibrationFreeBCI](https://github.com/manaal007/CalibrationFreeBCI).
+The local verified snapshot was committed before merging the existing GitHub
+README history. Publication uses `main` without a force-push; the original
+research branch and preservation archives remain available locally. Check the
+repository's Actions tab for the actual remote CI outcome.
