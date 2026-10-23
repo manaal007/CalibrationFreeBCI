@@ -1,0 +1,53 @@
+[
+  {
+    "outer_fold": 0,
+    "candidate": "rms_csp4",
+    "train_subjects": [
+      1,
+      2,
+      5,
+      6,
+      8,
+      9
+    ],
+    "test_subjects": [
+      3,
+      4,
+      7
+    ]
+  },
+  {
+    "outer_fold": 1,
+    "candidate": "fbcsp2",
+    "train_subjects": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "test_subjects": [
+      1,
+      2,
+      9
+    ]
+  },
+  {
+    "outer_fold": 2,
+    "candidate": "fbcsp2",
+    "train_subjects": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      9
+    ],
+    "test_subjects": [
+      5,
+      6,
+      8
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "scikit-learn": "1.9.1",
+  "mne": "1.13.2",
+  "moabb": "1.7.2",
+  "pyriemann": "0.12",
+  "pandas": "3.0.6",
+  "matplotlib": "3.11.2"
+}

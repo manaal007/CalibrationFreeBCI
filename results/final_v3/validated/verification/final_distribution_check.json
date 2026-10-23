@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "installed_module_hashes_match_source": true,
+  "tests": 18,
+  "real_external_predictions_byte_identical": true,
+  "wheel_sha256": "5e8cc1ef94987a77dc88ceaef123e9653059c0e9af979ae516c99d29aceaa33e",
+  "installed_version": "0.2.1",
+  "network_dataset_downloads": false
+}

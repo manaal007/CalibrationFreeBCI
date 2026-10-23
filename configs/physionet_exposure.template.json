@@ -1,0 +1,7 @@
+{
+  "dataset": "PhysioNet EEGMMIDB 1.0.0",
+  "subjects": [1,2,3,4,5],
+  "owner_confirmed": false,
+  "previously_used": null,
+  "notes": "Owner must confirm prior exposure before final evaluation. This file is not approval."
+}

@@ -1,0 +1,142 @@
+{
+    "dataset": "Cho2017",
+    "subject": 1,
+    "matlab_file": "C:\\Users\\laptopwala\\mne_data\\MNE-gigadb-data\\gigadb-datasets\\live\\pub\\10.5524\\100001_101000\\100295\\mat_data\\s01.mat",
+    "fields": [
+        "noise",
+        "rest",
+        "srate",
+        "movement_left",
+        "movement_right",
+        "movement_event",
+        "n_movement_trials",
+        "imagery_left",
+        "imagery_right",
+        "n_imagery_trials",
+        "frame",
+        "imagery_event",
+        "comment",
+        "subject",
+        "bad_trial_indices",
+        "psenloc",
+        "senloc"
+    ],
+    "inspection_only": true,
+    "sampling_rate_hz": 512.0,
+    "imagery_left_shape": [
+        68,
+        358400
+    ],
+    "imagery_right_shape": [
+        68,
+        358400
+    ],
+    "reported_trials_per_class": 100,
+    "samples_per_trial": 3584.0,
+    "seconds_per_trial": 7.0,
+    "first_event_intervals_s": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+    ],
+    "event_count": 100,
+    "first_event_indices": [
+        1023,
+        4607,
+        8191,
+        11775,
+        15359,
+        18943,
+        22527,
+        26111,
+        29695,
+        33279,
+        36863,
+        40447
+    ],
+    "first_event_times_s": [
+        1.998046875,
+        8.998046875,
+        15.998046875,
+        22.998046875,
+        29.998046875,
+        36.998046875,
+        43.998046875,
+        50.998046875,
+        57.998046875,
+        64.998046875,
+        71.998046875,
+        78.998046875
+    ],
+    "first_event_values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "bad_trial_indices": {
+        "bad_trial_idx_voltage": {
+            "shape": [
+                2
+            ],
+            "elements": [
+                {
+                    "shape": [
+                        0
+                    ],
+                    "dtype": "uint8",
+                    "size": 0,
+                    "values": []
+                },
+                {
+                    "shape": [
+                        0
+                    ],
+                    "dtype": "uint8",
+                    "size": 0,
+                    "values": []
+                }
+            ]
+        },
+        "bad_trial_idx_mi": {
+            "shape": [
+                2
+            ],
+            "elements": [
+                {
+                    "shape": [
+                        0
+                    ],
+                    "dtype": "uint8",
+                    "size": 0,
+                    "values": []
+                },
+                {
+                    "shape": [
+                        0
+                    ],
+                    "dtype": "uint8",
+                    "size": 0,
+                    "values": []
+                }
+            ]
+        }
+    }
+}

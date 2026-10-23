@@ -1,0 +1,93 @@
+CalibrationFreeBCI FINAL RESEARCH AUDIT
+Started: 2026-10-23T14:00:42
+READ-ONLY originals. All outputs in C:\Users\laptopwala\PycharmProjects\CalibrationFreeBCI\experiment20_final_research_validation
+
+=== A. SOURCE EEG (BNCI2014-001) ===
+BNCI 1: 2.183 µV median trial RMS
+BNCI 2: 2.005 µV median trial RMS
+BNCI 3: 2.535 µV median trial RMS
+BNCI 4: 2.243 µV median trial RMS
+BNCI 5: 1.483 µV median trial RMS
+BNCI 6: 3.488 µV median trial RMS
+BNCI 7: 2.298 µV median trial RMS
+BNCI 8: 3.653 µV median trial RMS
+BNCI 9: 4.510 µV median trial RMS
+
+=== B. ALL 46 TARGET PARTICIPANTS (Cho2017) ===
+Using original 15B MAT_DIR: C:\Users\laptopwala\mne_data\MNE-gigadb-data\gigadb-datasets\live\pub\10.5524\100001_101000\100295\mat_data
+Cho 7: 239 trials, RMS 41.278 µV
+Cho 8: 198 trials, RMS 58.770 µV
+Cho 9: 240 trials, RMS 61.846 µV
+Cho 10: 200 trials, RMS 81.492 µV
+Cho 11: 200 trials, RMS 81.775 µV
+Cho 12: 174 trials, RMS 116.498 µV
+Cho 13: 200 trials, RMS 63.476 µV
+Cho 14: 200 trials, RMS 102.331 µV
+Cho 15: 190 trials, RMS 68.395 µV
+Cho 16: 199 trials, RMS 76.858 µV
+Cho 17: 199 trials, RMS 57.451 µV
+Cho 18: 200 trials, RMS 57.048 µV
+Cho 19: 143 trials, RMS 76.593 µV
+Cho 20: 83 trials, RMS 73.693 µV
+Cho 21: 199 trials, RMS 87.111 µV
+Cho 22: 199 trials, RMS 73.073 µV
+Cho 23: 197 trials, RMS 76.190 µV
+Cho 24: 199 trials, RMS 72.939 µV
+Cho 25: 195 trials, RMS 62.367 µV
+Cho 26: 198 trials, RMS 62.627 µV
+Cho 27: 184 trials, RMS 82.905 µV
+Cho 28: 195 trials, RMS 83.228 µV
+Cho 29: 21 trials, RMS 51.951 µV
+Cho 30: 122 trials, RMS 58.258 µV
+Cho 31: 199 trials, RMS 106.029 µV
+Cho 32: 200 trials, RMS 72.958 µV
+Cho 33: 192 trials, RMS 68.627 µV
+Cho 34: 16 trials, RMS 57.610 µV
+Cho 35: 200 trials, RMS 64.295 µV
+Cho 36: 193 trials, RMS 68.763 µV
+Cho 37: 196 trials, RMS 70.857 µV
+Cho 38: 191 trials, RMS 61.894 µV
+Cho 39: 199 trials, RMS 201.748 µV
+Cho 40: 200 trials, RMS 62.945 µV
+Cho 41: 199 trials, RMS 97.848 µV
+Cho 42: 200 trials, RMS 46.371 µV
+Cho 43: 200 trials, RMS 77.291 µV
+Cho 44: 198 trials, RMS 82.308 µV
+Cho 45: 196 trials, RMS 116.531 µV
+Cho 46: 239 trials, RMS 108.990 µV
+Cho 47: 192 trials, RMS 98.536 µV
+Cho 48: 199 trials, RMS 160.401 µV
+Cho 49: 192 trials, RMS 76.415 µV
+Cho 50: 200 trials, RMS 61.115 µV
+Cho 51: 194 trials, RMS 76.925 µV
+Cho 52: 200 trials, RMS 84.748 µV
+FULL-COHORT MEDIAN PARTICIPANT TRIAL RMS: BNCI=2.2980 µV; Cho=73.3829 µV; ratio=31.9333x
+
+=== C. SAVED PREDICTION AUDIT (READ ONLY) ===
+Validated 34,276 trial-level prediction rows, 184 subject/model groups, 4 models.
+Max absolute difference vs saved auc: 1.11022302463e-16
+Max absolute difference vs saved balanced_accuracy: 5.55111512313e-17
+Max absolute difference vs saved accuracy: 1.11022302463e-16
+Max absolute difference vs saved predicted_right_fraction: 1.11022302463e-16
+Max absolute difference vs saved n_trials: 0
+CSP_LDA_source_tuned: n=46, mean AUC=0.612465, mean balanced accuracy=0.499838, right predictions=0.1167%
+CSP_LDA_untuned_baseline: n=46, mean AUC=0.560475, mean balanced accuracy=0.534411, right predictions=56.3776%
+Riemann_MDM_source_tuned: n=46, mean AUC=0.687782, mean balanced accuracy=0.500000, right predictions=100.0000%
+Riemann_MDM_untuned_baseline: n=46, mean AUC=0.687782, mean balanced accuracy=0.500000, right predictions=100.0000%
+
+=== D. POST-HOC PARTICIPANT RETENTION SENSITIVITY ===
+Post-hoc minimum 1: 46/46 subjects retained
+Post-hoc minimum 20: 45/46 subjects retained
+Post-hoc minimum 30: 44/46 subjects retained
+Post-hoc minimum 50: 44/46 subjects retained
+Post-hoc minimum 100: 43/46 subjects retained
+Subjects with <30 trials: [29, 34]
+
+=== SCIENTIFIC LIMITATIONS ===
+1. Amplitude mismatch is descriptive; raw-unit correctness requires independent documentation/source inspection.
+2. Target cohort was already inspected: all sensitivity analyses are post-hoc.
+3. No target-label-based model fitting, recalibration or threshold optimization performed.
+4. MDM signed distance differences are NOT probabilities; no 0.5 threshold assumed.
+5. Preprocessing and bad-trial metadata semantics must be independently verified.
+6. Saved prediction metrics require correct score orientation and no duplicated trials.
+Completed: 2026-10-23T14:03:39

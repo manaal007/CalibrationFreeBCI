@@ -1,0 +1,252 @@
+{
+  "experiment": "13b_cho2017_signal_audit",
+  "purpose": "Raw signal and event compatibility only; no trained models",
+  "subject": 1,
+  "software": {
+    "python": "3.12.10",
+    "mne": "1.13.2",
+    "moabb": "1.7.2"
+  },
+  "source_channel_order": [
+    "Fz",
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4",
+    "C5",
+    "C3",
+    "C1",
+    "Cz",
+    "C2",
+    "C4",
+    "C6",
+    "CP3",
+    "CP1",
+    "CPz",
+    "CP2",
+    "CP4",
+    "P1",
+    "Pz",
+    "P2",
+    "POz"
+  ],
+  "dataset_events": {
+    "left_hand": 1,
+    "right_hand": 2
+  },
+  "dataset_interval_seconds": [
+    0,
+    3
+  ],
+  "recordings": [
+    {
+      "session": "0",
+      "run": "0",
+      "sfreq_hz": 512.0,
+      "duration_seconds": 1400.9765625,
+      "n_samples": 717300,
+      "n_channels_total": 69,
+      "n_eeg_channels": 64,
+      "eeg_channel_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "channel_types": {
+        "eeg": 64,
+        "emg": 4,
+        "stim": 1
+      },
+      "common_channels_in_source_order": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "P1",
+        "Pz",
+        "P2",
+        "POz"
+      ],
+      "missing_source_channels": [],
+      "all_22_labels_present": true,
+      "common_channel_positions_valid": {
+        "Fz": true,
+        "FC3": true,
+        "FC1": true,
+        "FCz": true,
+        "FC2": true,
+        "FC4": true,
+        "C5": true,
+        "C3": true,
+        "C1": true,
+        "Cz": true,
+        "C2": true,
+        "C4": true,
+        "C6": true,
+        "CP3": true,
+        "CP1": true,
+        "CPz": true,
+        "CP2": true,
+        "CP4": true,
+        "P1": true,
+        "Pz": true,
+        "P2": true,
+        "POz": true
+      },
+      "annotations_counts": {
+        "left_hand": 100,
+        "right_hand": 100
+      },
+      "first_12_annotations": [
+        {
+          "onset_s": 1.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 8.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 15.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 22.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 29.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 36.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 43.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 50.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 57.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 64.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 71.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        },
+        {
+          "onset_s": 78.998047,
+          "duration_s": 3.0,
+          "description": "left_hand"
+        }
+      ],
+      "highpass_hz": 0.0,
+      "lowpass_hz": 256.0,
+      "line_freq_hz": 60.0,
+      "custom_ref_applied": 0,
+      "bad_channels": []
+    }
+  ],
+  "limitations": [
+    "Only Subject 1 inspected; does not establish generalization.",
+    "Dataset interval and event annotations alone do not prove cue timing.",
+    "MNE channel positions may reflect a standard montage rather than measured locations.",
+    "Reference comparability and actual signal quality require additional verification.",
+    "No data-driven choices, classifiers, or accuracy metrics were used."
+  ]
+}

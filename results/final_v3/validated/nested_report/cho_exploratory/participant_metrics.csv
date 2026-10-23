@@ -1,0 +1,4 @@
+model,subject,balanced_accuracy,auc,recall_left,recall_right,predicted_right_fraction,n_trials
+rms_csp4,1,0.535,0.7606999999999999,0.08,0.99,0.955,200
+csp_lda,1,0.495,0.528,0.93,0.06,0.065,200
+oas_mdm,1,0.5,0.7746999999999999,0.0,1.0,1.0,200

@@ -1,0 +1,167 @@
+{
+  "model": {
+    "model": "aligned_csp",
+    "threshold": 0,
+    "input": "epochs",
+    "participant_batch_adaptation": true,
+    "model_sha256": "2fcad4ef050f75d72347e1196de7c9dd22ed458badef7d4d8c26b54e9eccadb9"
+  },
+  "subjects": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "provenance": [
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S001\\S001R04.edf",
+      "sha256": "3d161f88e1c00632585287d2ce584c2bc0f08862438eb255ea8723e00fac693d"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S001\\S001R08.edf",
+      "sha256": "358fb5189220725141968ae285fbe9e3f36210b834ffba71d940af308e3aca68"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S001\\S001R12.edf",
+      "sha256": "2b281c9b687b4c4176e83251d74743721f2d6ebd76656a972a3b9c44d9d88cd5"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S002\\S002R04.edf",
+      "sha256": "fcd37831378c411d50c223d97ffbc00949be2271d093f1d8e56bbe7c02bd1539"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S002\\S002R08.edf",
+      "sha256": "02d64941f6bcd1635bc7dd187a9553331b73933e9771f4e7c59249dfc5632c5a"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S002\\S002R12.edf",
+      "sha256": "a3d166b23375942a5ccf352924f7766f0ca9cfd1bac7951175e710d978f5239f"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S003\\S003R04.edf",
+      "sha256": "7d0732eea963488a53153835524e55c2b68220b0a0c7c5be99e535a9f5367e7f"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S003\\S003R08.edf",
+      "sha256": "0f50978bb972e693b8c758a9223a2d9fa35c7f117226391090bcc32a83ce765d"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S003\\S003R12.edf",
+      "sha256": "bbf7137bfa7905724741e95359fa090439d4422c07bdba16c792acb09ebd6421"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S004\\S004R04.edf",
+      "sha256": "c9ddf0294961f0b877192a2479802b9c6c88403682a17b5ad679fd6485aa6f59"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S004\\S004R08.edf",
+      "sha256": "1ab5909b183413283a7ea76e35311a68a4688558f0044b9faab3987291cbdb92"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S004\\S004R12.edf",
+      "sha256": "c44b7be0464d86be4d460ec66432869b7b3e8dcaa2067af02d6e772abf5c11de"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S005\\S005R04.edf",
+      "sha256": "956d0857b17b040955fee9b2384f818f85bfb02248c387d9aa7930c42934ca0c"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S005\\S005R08.edf",
+      "sha256": "eeed6c328ee256dd2c20d1808e05819bed4ce56b8de1c57914ded00565b6b7bc"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S005\\S005R12.edf",
+      "sha256": "dfaf07c8ecc583b07363485596258e66a75fb33169496c62918c6dd0803814ce"
+    }
+  ],
+  "exposure_record": {
+    "dataset": "PhysioNet EEGMMIDB 1.0.0",
+    "subjects": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "owner_confirmed": false,
+    "previously_used": null,
+    "evaluation_approved": true,
+    "authorization": "User requested: run whatecer is left nd implement it",
+    "notes": "Evaluation is authorized. Prior decoding exposure has not been confirmed; results must remain provisional and must not be described as confirmatory. No earlier PhysioNet decoding references were found in numbered historical scripts."
+  },
+  "evaluation_kind": "provisional",
+  "independence": "not established",
+  "warning": "Confirmatory status depends on absence of prior use, not software flags",
+  "summary": {
+    "aligned_csp": {
+      "balanced_accuracy": {
+        "mean": 0.6044278185582533,
+        "participant_bootstrap_ci": [
+          0.4332439299830605,
+          0.765810276679842
+        ]
+      },
+      "auc": {
+        "mean": 0.6310809962983874,
+        "participant_bootstrap_ci": [
+          0.4325177238220716,
+          0.8296442687747035
+        ]
+      },
+      "recall_left": {
+        "mean": 0.5527950310559006,
+        "participant_bootstrap_ci": [
+          0.3801242236024845,
+          0.7304347826086957
+        ]
+      },
+      "recall_right": {
+        "mean": 0.656060606060606,
+        "participant_bootstrap_ci": [
+          0.4833333333333334,
+          0.8272727272727274
+        ]
+      }
+    },
+    "rms_csp_lda": {
+      "balanced_accuracy": {
+        "mean": 0.561415396198005,
+        "participant_bootstrap_ci": [
+          0.49397703745529836,
+          0.6288537549407115
+        ]
+      },
+      "auc": {
+        "mean": 0.6050050191354539,
+        "participant_bootstrap_ci": [
+          0.4533549783549784,
+          0.7596837944664031
+        ]
+      },
+      "recall_left": {
+        "mean": 0.5834368530020704,
+        "participant_bootstrap_ci": [
+          0.21035196687370603,
+          0.9565217391304348
+        ]
+      },
+      "recall_right": {
+        "mean": 0.5393939393939393,
+        "participant_bootstrap_ci": [
+          0.23636363636363633,
+          0.8424242424242425
+        ]
+      }
+    }
+  },
+  "paired_balanced_accuracy_differences": {
+    "rms_csp_lda": {
+      "selected_minus_comparator": 0.04301242236024847,
+      "participant_bootstrap_ci": [
+        -0.07504234895539241,
+        0.16336815358554488
+      ]
+    }
+  }
+}

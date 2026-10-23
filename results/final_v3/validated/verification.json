@@ -1,0 +1,37 @@
+{
+  "source": {
+    "status": "passed",
+    "prediction_rows": 5184,
+    "participant_model_rows": 18,
+    "predictions_sha256": "d6baba053ce4e965e80b5e5d24dc6f0939b4386c84f66832ca5b12acd3deef04"
+  },
+  "alignment_source": {
+    "status": "passed",
+    "prediction_rows": 5184,
+    "participant_model_rows": 18,
+    "predictions_sha256": "44ce766b9bf1b67b207a6745b7fcb32f34efec5d06cff596d82952682ed0e8c4"
+  },
+  "cho_exploratory": {
+    "status": "passed",
+    "prediction_rows": 600,
+    "participant_model_rows": 3,
+    "predictions_sha256": "f69feeda3f1b6cce0376e78923cb4f6c206134151142559cb4109c66864d21e3"
+  },
+  "alignment_cho_exploratory": {
+    "status": "passed",
+    "prediction_rows": 400,
+    "participant_model_rows": 2,
+    "predictions_sha256": "71ccdf3dba2f1feeaef6903f075e1294369eb2b2b0dc9366a150cf11b811d93e"
+  },
+  "source_alignment_repeat": {
+    "status": "passed",
+    "rows": 5184,
+    "max_score_difference": 0.0
+  },
+  "external_repeat_and_clean_environment": {
+    "status": "passed_byte_identical",
+    "sha256": "71ccdf3dba2f1feeaef6903f075e1294369eb2b2b0dc9366a150cf11b811d93e",
+    "runs": 3
+  },
+  "original_archive": "unchanged"
+}

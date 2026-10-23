@@ -1,0 +1,1686 @@
+[
+  {
+    "subject": 7,
+    "n_imagery_trials_per_class": 120,
+    "n_retained": 239,
+    "n_left_excluded": 1,
+    "n_right_excluded": 0,
+    "n_left_retained": 119,
+    "n_right_retained": 120,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [
+          119
+        ],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 8,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 198,
+    "n_left_excluded": 2,
+    "n_right_excluded": 0,
+    "n_left_retained": 98,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          48,
+          52
+        ],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 9,
+    "n_imagery_trials_per_class": 120,
+    "n_retained": 240,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 120,
+    "n_right_retained": 120,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 10,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 11,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 12,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 174,
+    "n_left_excluded": 14,
+    "n_right_excluded": 12,
+    "n_left_retained": 86,
+    "n_right_retained": 88,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          36,
+          56,
+          59,
+          60,
+          66,
+          70,
+          84,
+          89,
+          90,
+          91,
+          94,
+          95,
+          96,
+          98
+        ],
+        "right": [
+          26,
+          32,
+          40,
+          52,
+          54,
+          55,
+          56,
+          86,
+          92,
+          98,
+          99,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "subject": 13,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 14,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 15,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 190,
+    "n_left_excluded": 3,
+    "n_right_excluded": 7,
+    "n_left_retained": 97,
+    "n_right_retained": 93,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [
+          81
+        ],
+        "right": [
+          96
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          35,
+          53,
+          81
+        ],
+        "right": [
+          26,
+          28,
+          31,
+          32,
+          34,
+          61
+        ]
+      }
+    }
+  },
+  {
+    "subject": 16,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 1,
+    "n_right_excluded": 0,
+    "n_left_retained": 99,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          68
+        ],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 17,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 0,
+    "n_right_excluded": 1,
+    "n_left_retained": 100,
+    "n_right_retained": 99,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": [
+          29
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 18,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 19,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 143,
+    "n_left_excluded": 19,
+    "n_right_excluded": 38,
+    "n_left_retained": 81,
+    "n_right_retained": 62,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          4,
+          14,
+          18,
+          57,
+          58,
+          62,
+          63,
+          68,
+          70,
+          72,
+          73,
+          74,
+          75,
+          76,
+          94,
+          96,
+          97,
+          99,
+          100
+        ],
+        "right": [
+          2,
+          10,
+          13,
+          14,
+          16,
+          17,
+          28,
+          32,
+          42,
+          44,
+          45,
+          49,
+          50,
+          51,
+          52,
+          54,
+          55,
+          56,
+          57,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          67,
+          68,
+          69,
+          70,
+          72,
+          74,
+          75,
+          76,
+          77,
+          80,
+          81,
+          94,
+          98
+        ]
+      }
+    }
+  },
+  {
+    "subject": 20,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 83,
+    "n_left_excluded": 70,
+    "n_right_excluded": 47,
+    "n_left_retained": 30,
+    "n_right_retained": 53,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          1,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          22,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          65,
+          67,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100
+        ],
+        "right": [
+          24,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          37,
+          38,
+          39,
+          40,
+          41,
+          44,
+          45,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          57,
+          58,
+          59,
+          60,
+          69,
+          71,
+          72,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          95,
+          96,
+          98,
+          99,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "subject": 21,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 0,
+    "n_right_excluded": 1,
+    "n_left_retained": 100,
+    "n_right_retained": 99,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": [
+          99
+        ]
+      }
+    }
+  },
+  {
+    "subject": 22,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 0,
+    "n_right_excluded": 1,
+    "n_left_retained": 100,
+    "n_right_retained": 99,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": [
+          1
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 23,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 197,
+    "n_left_excluded": 2,
+    "n_right_excluded": 1,
+    "n_left_retained": 98,
+    "n_right_retained": 99,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          32,
+          73
+        ],
+        "right": [
+          21
+        ]
+      }
+    }
+  },
+  {
+    "subject": 24,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 1,
+    "n_right_excluded": 0,
+    "n_left_retained": 99,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          1
+        ],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 25,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 195,
+    "n_left_excluded": 3,
+    "n_right_excluded": 2,
+    "n_left_retained": 97,
+    "n_right_retained": 98,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": [
+          56
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          71,
+          79,
+          93
+        ],
+        "right": [
+          40
+        ]
+      }
+    }
+  },
+  {
+    "subject": 26,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 198,
+    "n_left_excluded": 0,
+    "n_right_excluded": 2,
+    "n_left_retained": 100,
+    "n_right_retained": 98,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": [
+          35,
+          36
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 27,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 184,
+    "n_left_excluded": 11,
+    "n_right_excluded": 5,
+    "n_left_retained": 89,
+    "n_right_retained": 95,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": [
+          100
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          16,
+          19,
+          33,
+          35,
+          39,
+          40,
+          41,
+          65,
+          77,
+          97,
+          98
+        ],
+        "right": [
+          40,
+          49,
+          50,
+          71
+        ]
+      }
+    }
+  },
+  {
+    "subject": 28,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 195,
+    "n_left_excluded": 1,
+    "n_right_excluded": 4,
+    "n_left_retained": 99,
+    "n_right_retained": 96,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": [
+          78
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          78
+        ],
+        "right": [
+          25,
+          49,
+          73
+        ]
+      }
+    }
+  },
+  {
+    "subject": 29,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 21,
+    "n_left_excluded": 80,
+    "n_right_excluded": 99,
+    "n_left_retained": 20,
+    "n_right_retained": 1,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          66,
+          74,
+          75,
+          77,
+          78,
+          79,
+          80,
+          81,
+          83,
+          84,
+          85,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ],
+        "right": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "subject": 30,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 122,
+    "n_left_excluded": 38,
+    "n_right_excluded": 40,
+    "n_left_retained": 62,
+    "n_right_retained": 60,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          5,
+          7,
+          10,
+          14,
+          15,
+          21,
+          25,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "right": [
+          10,
+          11,
+          22,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          63
+        ]
+      }
+    }
+  },
+  {
+    "subject": 31,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 1,
+    "n_right_excluded": 0,
+    "n_left_retained": 99,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          16
+        ],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 32,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 33,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 192,
+    "n_left_excluded": 4,
+    "n_right_excluded": 4,
+    "n_left_retained": 96,
+    "n_right_retained": 96,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [
+          1,
+          72,
+          77,
+          81
+        ],
+        "right": [
+          66,
+          81,
+          85
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": [
+          41
+        ]
+      }
+    }
+  },
+  {
+    "subject": 34,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 16,
+    "n_left_excluded": 87,
+    "n_right_excluded": 97,
+    "n_left_retained": 13,
+    "n_right_retained": 3,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          3,
+          5,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          65,
+          67,
+          68,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100
+        ],
+        "right": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100
+        ]
+      }
+    }
+  },
+  {
+    "subject": 35,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 36,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 193,
+    "n_left_excluded": 4,
+    "n_right_excluded": 3,
+    "n_left_retained": 96,
+    "n_right_retained": 97,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [
+          77
+        ],
+        "right": [
+          33
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          16,
+          40,
+          94
+        ],
+        "right": [
+          68,
+          84
+        ]
+      }
+    }
+  },
+  {
+    "subject": 37,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 196,
+    "n_left_excluded": 0,
+    "n_right_excluded": 4,
+    "n_left_retained": 100,
+    "n_right_retained": 96,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": [
+          64,
+          69,
+          75,
+          88
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 38,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 191,
+    "n_left_excluded": 4,
+    "n_right_excluded": 5,
+    "n_left_retained": 96,
+    "n_right_retained": 95,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          57,
+          72,
+          80,
+          81
+        ],
+        "right": [
+          10,
+          17,
+          34,
+          57,
+          76
+        ]
+      }
+    }
+  },
+  {
+    "subject": 39,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 0,
+    "n_right_excluded": 1,
+    "n_left_retained": 100,
+    "n_right_retained": 99,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": [
+          43
+        ]
+      }
+    }
+  },
+  {
+    "subject": 40,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 41,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 0,
+    "n_right_excluded": 1,
+    "n_left_retained": 100,
+    "n_right_retained": 99,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": [
+          1
+        ]
+      }
+    }
+  },
+  {
+    "subject": 42,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 43,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 44,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 198,
+    "n_left_excluded": 0,
+    "n_right_excluded": 2,
+    "n_left_retained": 100,
+    "n_right_retained": 98,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": [
+          14,
+          20
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 45,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 196,
+    "n_left_excluded": 1,
+    "n_right_excluded": 3,
+    "n_left_retained": 99,
+    "n_right_retained": 97,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [
+          32
+        ],
+        "right": [
+          20,
+          41,
+          68
+        ]
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 46,
+    "n_imagery_trials_per_class": 120,
+    "n_retained": 239,
+    "n_left_excluded": 1,
+    "n_right_excluded": 0,
+    "n_left_retained": 119,
+    "n_right_retained": 120,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          78
+        ],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 47,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 192,
+    "n_left_excluded": 6,
+    "n_right_excluded": 2,
+    "n_left_retained": 94,
+    "n_right_retained": 98,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          47,
+          50,
+          70,
+          83,
+          87,
+          99
+        ],
+        "right": [
+          54,
+          74
+        ]
+      }
+    }
+  },
+  {
+    "subject": 48,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 199,
+    "n_left_excluded": 0,
+    "n_right_excluded": 1,
+    "n_left_retained": 100,
+    "n_right_retained": 99,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": [
+          40
+        ]
+      }
+    }
+  },
+  {
+    "subject": 49,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 192,
+    "n_left_excluded": 8,
+    "n_right_excluded": 0,
+    "n_left_retained": 92,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          1,
+          7,
+          8,
+          14,
+          15,
+          17,
+          20,
+          78
+        ],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 50,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  },
+  {
+    "subject": 51,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 194,
+    "n_left_excluded": 2,
+    "n_right_excluded": 4,
+    "n_left_retained": 98,
+    "n_right_retained": 96,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [
+          15,
+          64
+        ],
+        "right": [
+          20,
+          63,
+          65,
+          75
+        ]
+      }
+    }
+  },
+  {
+    "subject": 52,
+    "n_imagery_trials_per_class": 100,
+    "n_retained": 200,
+    "n_left_excluded": 0,
+    "n_right_excluded": 0,
+    "n_left_retained": 100,
+    "n_right_retained": 100,
+    "bad_trial_metadata": {
+      "bad_trial_idx_voltage": {
+        "left": [],
+        "right": []
+      },
+      "bad_trial_idx_mi": {
+        "left": [],
+        "right": []
+      }
+    }
+  }
+]

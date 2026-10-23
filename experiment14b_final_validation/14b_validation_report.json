@@ -1,0 +1,135 @@
+{
+  "experiment": "14B",
+  "training_performed": false,
+  "external_evaluation_performed": false,
+  "full_protocol_frozen": false,
+  "checks": {
+    "BNCI channels": {
+      "pass": true,
+      "detail": "22 requested electrodes found"
+    },
+    "BNCI sampling": {
+      "pass": true,
+      "detail": "250.0"
+    },
+    "BNCI channel types": {
+      "pass": true,
+      "detail": "22 EEG types"
+    },
+    "BNCI event labels": {
+      "pass": true,
+      "detail": "Observed descriptions: ['feet', 'left_hand', 'right_hand', 'tongue']; MOABB IDs: {'left_hand': '1', 'right_hand': '2'}"
+    },
+    "Installed Cho loader volts conversion": {
+      "pass": true,
+      "detail": "Installed MOABB loader explicitly multiplies both imagery arrays by 1e-6"
+    },
+    "Installed Cho loader row mapping": {
+      "pass": true,
+      "detail": "Installed MOABB loader labels first 64 rows as EEG, next 4 as EMG"
+    },
+    "Cho MATLAB dimensions": {
+      "pass": true,
+      "detail": "512.0 Hz; 100 trials/class; left=(68, 358400)"
+    },
+    "Cho marker position": {
+      "pass": true,
+      "detail": "One marker at sample 1023 in every 7-second trial"
+    },
+    "Cho bad_trial_idx_voltage": {
+      "pass": true,
+      "detail": "Subject 1 two class arrays: [0, 0] flagged indices"
+    },
+    "Cho bad_trial_idx_mi": {
+      "pass": true,
+      "detail": "Subject 1 two class arrays: [0, 0] flagged indices"
+    },
+    "Cho channels": {
+      "pass": true,
+      "detail": "64 EEG names; all 22 common electrodes present"
+    },
+    "Cho raw scaling check": {
+      "pass": true,
+      "detail": "First sample matches installed loader temporal demeaning and microvolt-to-volt conversion"
+    },
+    "Cho processed example shape": {
+      "pass": true,
+      "detail": "(22, 501)"
+    },
+    "Cho processed example finite": {
+      "pass": true,
+      "detail": "No NaN/Inf"
+    }
+  },
+  "limitations": [
+    "Only Cho Subject 1 and the first BNCI recording were inspected here; not all subjects.",
+    "Common-average reference and 0.5-2.5 s post-cue window are prespecified analysis choices, not proven equivalent across acquisition systems.",
+    "The MATLAB trial event marker and source cue meaning must be reconciled with published acquisition documentation.",
+    "Filtering was demonstrated within a single original Cho trial; full target cohort preprocessing and exclusions remain to be implemented.",
+    "Train/test separation and no target-label fitting must be enforced and audited in Experiment 15.",
+    "Model hyperparameters and reporting plan must be frozen before examining target performance."
+  ],
+  "bnci_cache": "C:\\Users\\laptopwala\\.cache\\huggingface\\hub\\datasets--EEGDash--eeg-mi-datasets\\snapshots\\9cb977507faaecfb2bbfe5a6b52ee3f829fe54ea\\BNCI2014_001",
+  "cho_loader_unit_conversion": 1e-06,
+  "bad_trial_summary": {
+    "bad_trial_idx_voltage": [
+      0,
+      0
+    ],
+    "bad_trial_idx_mi": [
+      0,
+      0
+    ]
+  },
+  "channel_order": [
+    "Fz",
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4",
+    "C5",
+    "C3",
+    "C1",
+    "Cz",
+    "C2",
+    "C4",
+    "C6",
+    "CP3",
+    "CP1",
+    "CPz",
+    "CP2",
+    "CP4",
+    "P1",
+    "Pz",
+    "P2",
+    "POz"
+  ],
+  "cho_matlab_row_indices": [
+    37,
+    9,
+    10,
+    46,
+    45,
+    44,
+    13,
+    12,
+    11,
+    47,
+    48,
+    49,
+    50,
+    17,
+    18,
+    31,
+    55,
+    54,
+    19,
+    30,
+    56,
+    29
+  ],
+  "cho_example_mean_absolute_volts": 5.658718662221588e-05,
+  "cho_example_max_absolute_volts": 0.0003369410099169694,
+  "status": "SUBJECT-1 AUDIT PASS; FULL PROTOCOL NOT FROZEN"
+}

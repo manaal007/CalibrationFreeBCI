@@ -1,0 +1,244 @@
+{
+  "experiment": "15B",
+  "status": "COMPLETE_PARTIAL_COHORT",
+  "external_test_subjects_requested": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "excluded_exploratory_subject": 1,
+  "target_model_fitting": false,
+  "no_downloads": true,
+  "bad_trial_policy": "Union of class-specific voltage/MI bad-trial IDs; MATLAB 1-based positions converted to Python 0-based; filter each original trial separately",
+  "caveats": [
+    "Cross-dataset acquisition/reference/cue differences.",
+    "Uncached Cho files are not counted as evaluated.",
+    "Frozen BNCI hyperparameters and thresholds.",
+    "Bad-trial index semantics should be confirmed against original dataset documentation before publication."
+  ],
+  "available_subjects": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "missing_subjects": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "quality_by_subject": [
+    {
+      "subject": 2,
+      "n_left_excluded": 1,
+      "n_right_excluded": 0,
+      "n_left_retained": 99,
+      "n_right_retained": 100,
+      "bad_trial_metadata": {
+        "bad_trial_idx_voltage": {
+          "left": [
+            81
+          ],
+          "right": []
+        },
+        "bad_trial_idx_mi": {
+          "left": [],
+          "right": []
+        }
+      }
+    },
+    {
+      "subject": 3,
+      "n_left_excluded": 0,
+      "n_right_excluded": 0,
+      "n_left_retained": 100,
+      "n_right_retained": 100,
+      "bad_trial_metadata": {
+        "bad_trial_idx_voltage": {
+          "left": [],
+          "right": []
+        },
+        "bad_trial_idx_mi": {
+          "left": [],
+          "right": []
+        }
+      }
+    },
+    {
+      "subject": 4,
+      "n_left_excluded": 0,
+      "n_right_excluded": 0,
+      "n_left_retained": 100,
+      "n_right_retained": 100,
+      "bad_trial_metadata": {
+        "bad_trial_idx_voltage": {
+          "left": [],
+          "right": []
+        },
+        "bad_trial_idx_mi": {
+          "left": [],
+          "right": []
+        }
+      }
+    },
+    {
+      "subject": 5,
+      "n_left_excluded": 1,
+      "n_right_excluded": 0,
+      "n_left_retained": 99,
+      "n_right_retained": 100,
+      "bad_trial_metadata": {
+        "bad_trial_idx_voltage": {
+          "left": [],
+          "right": []
+        },
+        "bad_trial_idx_mi": {
+          "left": [
+            15
+          ],
+          "right": []
+        }
+      }
+    },
+    {
+      "subject": 6,
+      "n_left_excluded": 2,
+      "n_right_excluded": 20,
+      "n_left_retained": 98,
+      "n_right_retained": 80,
+      "bad_trial_metadata": {
+        "bad_trial_idx_voltage": {
+          "left": [],
+          "right": []
+        },
+        "bad_trial_idx_mi": {
+          "left": [
+            78,
+            80
+          ],
+          "right": [
+            1,
+            10,
+            17,
+            20,
+            21,
+            22,
+            28,
+            32,
+            44,
+            47,
+            54,
+            58,
+            59,
+            60,
+            68,
+            70,
+            81,
+            82,
+            89,
+            90
+          ]
+        }
+      }
+    }
+  ],
+  "evaluated_subjects": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}

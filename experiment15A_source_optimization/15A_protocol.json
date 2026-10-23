@@ -1,0 +1,79 @@
+{
+  "experiment": "15A",
+  "status": "COMPLETE",
+  "target_data_accessed": false,
+  "source_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "outer_cv": "leave one source subject out",
+  "inner_cv": "leave one of eight training subjects out",
+  "selection_metric": "mean per-subject ROC-AUC",
+  "tie_break": "earliest candidate in frozen grid",
+  "candidate_grid": {
+    "CSP_LDA": [
+      {
+        "n_components": 4,
+        "reg": "ledoit_wolf",
+        "lda": "svd"
+      },
+      {
+        "n_components": 6,
+        "reg": "ledoit_wolf",
+        "lda": "svd"
+      },
+      {
+        "n_components": 8,
+        "reg": "ledoit_wolf",
+        "lda": "svd"
+      },
+      {
+        "n_components": 4,
+        "reg": "oas",
+        "lda": "svd"
+      }
+    ],
+    "Riemann_MDM": [
+      {
+        "covariance": "oas",
+        "metric": "riemann"
+      },
+      {
+        "covariance": "lwf",
+        "metric": "riemann"
+      }
+    ]
+  },
+  "warning": "Source CV performance is not an external Cho estimate.",
+  "source_shape": [
+    2592,
+    22,
+    501
+  ],
+  "selected": {
+    "CSP_LDA": {
+      "candidate_index": 2,
+      "parameters": {
+        "n_components": 8,
+        "reg": "ledoit_wolf",
+        "lda": "svd"
+      },
+      "source_cv_mean_auc": 0.7540134173525377
+    },
+    "Riemann_MDM": {
+      "candidate_index": 0,
+      "parameters": {
+        "covariance": "oas",
+        "metric": "riemann"
+      },
+      "source_cv_mean_auc": 0.7551172410836763
+    }
+  }
+}

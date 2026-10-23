@@ -1,0 +1,139 @@
+{
+  "status": "passed_loading_only",
+  "dataset": "PhysioNet EEGMMIDB 1.0.0",
+  "subjects": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "channels": [
+    "Fz",
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4",
+    "C5",
+    "C3",
+    "C1",
+    "Cz",
+    "C2",
+    "C4",
+    "C6",
+    "CP3",
+    "CP1",
+    "CPz",
+    "CP2",
+    "CP4",
+    "P1",
+    "Pz",
+    "P2",
+    "POz"
+  ],
+  "shape": [
+    225,
+    22,
+    501
+  ],
+  "units": "volts",
+  "rms_median_volts": 6.9310406766125225e-06,
+  "participant_counts": [
+    {
+      "subject": 1,
+      "trials": 45,
+      "left": 23,
+      "right": 22
+    },
+    {
+      "subject": 2,
+      "trials": 45,
+      "left": 23,
+      "right": 22
+    },
+    {
+      "subject": 3,
+      "trials": 45,
+      "left": 23,
+      "right": 22
+    },
+    {
+      "subject": 4,
+      "trials": 45,
+      "left": 23,
+      "right": 22
+    },
+    {
+      "subject": 5,
+      "trials": 45,
+      "left": 21,
+      "right": 24
+    }
+  ],
+  "provenance": [
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S001\\S001R04.edf",
+      "sha256": "3d161f88e1c00632585287d2ce584c2bc0f08862438eb255ea8723e00fac693d"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S001\\S001R08.edf",
+      "sha256": "358fb5189220725141968ae285fbe9e3f36210b834ffba71d940af308e3aca68"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S001\\S001R12.edf",
+      "sha256": "2b281c9b687b4c4176e83251d74743721f2d6ebd76656a972a3b9c44d9d88cd5"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S002\\S002R04.edf",
+      "sha256": "fcd37831378c411d50c223d97ffbc00949be2271d093f1d8e56bbe7c02bd1539"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S002\\S002R08.edf",
+      "sha256": "02d64941f6bcd1635bc7dd187a9553331b73933e9771f4e7c59249dfc5632c5a"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S002\\S002R12.edf",
+      "sha256": "a3d166b23375942a5ccf352924f7766f0ca9cfd1bac7951175e710d978f5239f"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S003\\S003R04.edf",
+      "sha256": "7d0732eea963488a53153835524e55c2b68220b0a0c7c5be99e535a9f5367e7f"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S003\\S003R08.edf",
+      "sha256": "0f50978bb972e693b8c758a9223a2d9fa35c7f117226391090bcc32a83ce765d"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S003\\S003R12.edf",
+      "sha256": "bbf7137bfa7905724741e95359fa090439d4422c07bdba16c792acb09ebd6421"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S004\\S004R04.edf",
+      "sha256": "c9ddf0294961f0b877192a2479802b9c6c88403682a17b5ad679fd6485aa6f59"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S004\\S004R08.edf",
+      "sha256": "1ab5909b183413283a7ea76e35311a68a4688558f0044b9faab3987291cbdb92"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S004\\S004R12.edf",
+      "sha256": "c44b7be0464d86be4d460ec66432869b7b3e8dcaa2067af02d6e772abf5c11de"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S005\\S005R04.edf",
+      "sha256": "956d0857b17b040955fee9b2384f818f85bfb02248c387d9aa7930c42934ca0c"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S005\\S005R08.edf",
+      "sha256": "eeed6c328ee256dd2c20d1808e05819bed4ce56b8de1c57914ded00565b6b7bc"
+    },
+    {
+      "path": "C:\\Users\\laptopwala\\mne_data\\MNE-eegbci-data\\files\\eegmmidb\\1.0.0\\S005\\S005R12.edf",
+      "sha256": "dfaf07c8ecc583b07363485596258e66a75fb33169496c62918c6dd0803814ce"
+    }
+  ],
+  "predictions_generated": false,
+  "decoding_metrics_computed": false,
+  "prior_decoding_exposure": "unknown; owner confirmation required"
+}

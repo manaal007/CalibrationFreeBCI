@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "git_visible_files": 260,
+  "git_visible_bytes": 10571649,
+  "violations": [],
+  "remote_push_performed": false,
+  "limitation": "file-type and size checks, not a guarantee that arbitrary source text contains no secrets"
+}

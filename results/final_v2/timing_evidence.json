@@ -1,0 +1,1094 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "file": "A01E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01T.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A01T.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02T.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A02T.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03T.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A03T.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04T.mat",
+      "run": 1,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04T.mat",
+      "run": 2,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A04T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05T.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A05T.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06T.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A06T.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07T.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A07T.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08T.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A08T.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09E.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09E.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09E.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09E.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09E.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09E.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09T.mat",
+      "run": 3,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09T.mat",
+      "run": 4,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09T.mat",
+      "run": 5,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09T.mat",
+      "run": 6,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09T.mat",
+      "run": 7,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    },
+    {
+      "file": "A09T.mat",
+      "run": 8,
+      "n_events": 48,
+      "first_matlab_trial": 251,
+      "first_zero_based_trial": 250,
+      "first_cue_sample": 750,
+      "first_epoch_start": 875,
+      "first_epoch_last": 1375
+    }
+  ],
+  "dataset_interval": [
+    2,
+    6
+  ],
+  "installed_converter_source": "C:\\Users\\laptopwala\\PycharmProjects\\CalibrationFreeBCI\\.venv\\Lib\\site-packages\\moabb\\datasets\\bnci\\base.py",
+  "converter_sha256": "920e327b8131bd6f63a6991863b4b69eff67a18075ea13da916aa09712cf5f5d",
+  "original_specification": "https://www.bbci.de/competition/iv/desc_2a.pdf",
+  "inference": "MAT trials align to trial starts; cue offset supported by original protocol and installed interval",
+  "limitation": "No local original GDF file available for direct code-768/code-769 timestamp comparison"
+}

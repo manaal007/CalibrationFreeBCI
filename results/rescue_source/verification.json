@@ -1,0 +1,13 @@
+{
+  "status": "saved predictions independently recomputed",
+  "rows": 12960,
+  "participants": 9,
+  "gain_max_score_shifts": {
+    "csp_lda": 2.233179985092306,
+    "oas_mdm": 0.856328134134114,
+    "rms_csp_lda": 1.7763568394002505e-15,
+    "trace_oas_mdm": 3.952393967665557e-14,
+    "trace_tangent_lda": 3.428368700042484e-13
+  },
+  "model_sha256": "f011750def9ea02f49911957d6125a194d8990bd5f8a2ed0ca7e600e4d08ff41"
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calibrationfreebci"
+version = "0.3.0"
+description = "Reproducible motor imagery EEG transfer with frozen external evaluation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2", "scipy>=1.14", "scikit-learn>=1.6", "mne>=1.10", "moabb>=1.2", "pyriemann>=0.9", "pandas>=2.2", "matplotlib>=3.9", "huggingface-hub>=0.25", "joblib>=1.4", "threadpoolctl>=3.5"]
+
+[project.scripts]
+bci-research = "calibrationfreebci.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["calibrationfreebci*"]
+
+[tool.setuptools.package-data]
+calibrationfreebci = ["*.json"]

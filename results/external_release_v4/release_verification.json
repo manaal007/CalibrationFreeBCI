@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "version": "0.3.0",
+  "installed_module_hashes_match_source": true,
+  "tests": 20,
+  "repeat_runs": 3,
+  "byte_identical": {
+    "predictions.csv": "c1de3916b42dd2f3202d4c5663d000a4e54bf8f63724ae49ecff8f60584632b4",
+    "participant_metrics.csv": "c48225ed40d445b616357ede6c5049012d63f76c7f638307b33d1d4c927ba577"
+  },
+  "metrics": {
+    "status": "passed",
+    "prediction_rows": 450,
+    "participant_model_rows": 10,
+    "predictions_sha256": "c1de3916b42dd2f3202d4c5663d000a4e54bf8f63724ae49ecff8f60584632b4"
+  },
+  "wheel_sha256": "59ab2f87f3438bf1e2c4d5c01a1ca864dc0400441be6c0aca91dc728f0a74df6",
+  "frozen_models_unchanged": true,
+  "original_archive_unchanged": true,
+  "evaluation_kind": "provisional",
+  "cohort_independence": "not established"
+}

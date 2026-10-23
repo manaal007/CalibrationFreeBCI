@@ -1,0 +1,65 @@
+{
+  "dataset": "PhysioNet EEGMMIDB 1.0.0",
+  "subjects": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "evaluation_kind": "provisional",
+  "exposure_record": {
+    "dataset": "PhysioNet EEGMMIDB 1.0.0",
+    "subjects": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "owner_confirmed": false,
+    "previously_used": null,
+    "evaluation_approved": true,
+    "authorization": "User requested: run whatecer is left nd implement it",
+    "notes": "Evaluation is authorized. Prior decoding exposure has not been confirmed; results must remain provisional and must not be described as confirmatory. No earlier PhysioNet decoding references were found in numbered historical scripts."
+  },
+  "primary_model": {
+    "model": "aligned_csp",
+    "threshold": 0,
+    "input": "epochs",
+    "participant_batch_adaptation": true,
+    "model_sha256": "2fcad4ef050f75d72347e1196de7c9dd22ed458badef7d4d8c26b54e9eccadb9"
+  },
+  "comparison_manifest": {
+    "rms_csp_lda": {
+      "file": "comparison_rms_csp_lda.joblib",
+      "sha256": "f011750def9ea02f49911957d6125a194d8990bd5f8a2ed0ca7e600e4d08ff41",
+      "threshold": 0,
+      "input": "epochs",
+      "participant_batch_adaptation": false
+    },
+    "aligned_csp": {
+      "file": "comparison_aligned_csp.joblib",
+      "sha256": "afee9a455a552a3131b667a4e3259bb1395aeda1f558d33a71b75f3bd41e7ef6",
+      "threshold": 0,
+      "input": "epochs",
+      "participant_batch_adaptation": true
+    }
+  },
+  "primary_endpoint": "participant-mean balanced accuracy",
+  "secondary_endpoints": [
+    "auc",
+    "recall_left",
+    "recall_right"
+  ],
+  "threshold_policy": "frozen source thresholds",
+  "target_label_tuning": false,
+  "bootstrap": {
+    "unit": "participant",
+    "draws": 10000,
+    "seed": 20261023
+  },
+  "participant_exclusions": "none based on performance",
+  "source_model_refitting": false,
+  "independence": "not established"
+}

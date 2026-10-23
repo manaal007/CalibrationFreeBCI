@@ -1,0 +1,129 @@
+{
+  "purpose": "Inspect actual installed MOABB protocol, not certify all leakage risks",
+  "versions": {
+    "moabb": "1.7.2",
+    "mne": "1.13.2",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "pyriemann": "0.12",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "huggingface-hub": "2.2.0"
+  },
+  "python": "3.12.10",
+  "data_source": {
+    "snapshot_path": "C:\\Users\\laptopwala\\.cache\\huggingface\\hub\\datasets--EEGDash--eeg-mi-datasets\\snapshots\\9cb977507faaecfb2bbfe5a6b52ee3f829fe54ea",
+    "mne_datasets_bnci_path": "C:\\Users\\laptopwala\\.cache\\huggingface\\hub\\datasets--EEGDash--eeg-mi-datasets\\snapshots\\9cb977507faaecfb2bbfe5a6b52ee3f829fe54ea\\BNCI2014_001",
+    "provider": "upstream",
+    "matching_subject1_files": [
+      "MNE-bnci-data\\~bci\\database\\001-2014\\A01E.mat",
+      "MNE-bnci-data\\~bci\\database\\001-2014\\A01T.mat"
+    ]
+  },
+  "dataset": {
+    "class": "BNCI2014_001",
+    "subject_list": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "event_id": {
+      "left_hand": 1,
+      "right_hand": 2,
+      "feet": 3,
+      "tongue": 4
+    },
+    "interval": [
+      2,
+      6
+    ],
+    "unit_factor": 1000000.0
+  },
+  "paradigm": {
+    "class": "LeftRightImagery",
+    "fmin": 8,
+    "fmax": 30,
+    "tmin": 0.5,
+    "tmax": 3.5,
+    "events": [
+      "left_hand",
+      "right_hand"
+    ],
+    "resample": null,
+    "baseline": null
+  },
+  "dataset_class_source_path": "C:\\Users\\laptopwala\\PycharmProjects\\CalibrationFreeBCI\\.venv\\Lib\\site-packages\\moabb\\datasets\\bnci\\bnci_2014.py",
+  "paradigm_class_source_path": "C:\\Users\\laptopwala\\PycharmProjects\\CalibrationFreeBCI\\.venv\\Lib\\site-packages\\moabb\\paradigms\\motor_imagery.py",
+  "processed": {
+    "shape": [
+      288,
+      22,
+      751
+    ],
+    "labels": {
+      "left_hand": 144,
+      "right_hand": 144
+    },
+    "metadata_columns": [
+      "subject",
+      "session",
+      "run"
+    ],
+    "sessions": {
+      "0train": 144,
+      "1test": 144
+    },
+    "finite": true
+  },
+  "get_data_signature": "(dataset, subjects=None, return_epochs=False, return_raws=False, cache_config=None, postprocess_pipeline=None, process_pipelines=None, additional_metadata: \"Literal['all'] | list[str]\" = None, n_jobs=1)",
+  "epochs": {
+    "tmin": 2.5,
+    "tmax": 5.5,
+    "sfreq": 250.0,
+    "n_epochs": 288,
+    "n_channels": 22,
+    "channel_names": [
+      "Fz",
+      "FC3",
+      "FC1",
+      "FCz",
+      "FC2",
+      "FC4",
+      "C5",
+      "C3",
+      "C1",
+      "Cz",
+      "C2",
+      "C4",
+      "C6",
+      "CP3",
+      "CP1",
+      "CPz",
+      "CP2",
+      "CP4",
+      "P1",
+      "Pz",
+      "P2",
+      "POz"
+    ],
+    "event_id": {
+      "1": 1,
+      "2": 2
+    },
+    "baseline": null,
+    "highpass": 8.0,
+    "lowpass": 30.0
+  },
+  "unverified": [
+    "Whether EEGDash snapshot matches the canonical MOABB dataset byte-for-byte",
+    "Exact filter/reference implementation and event-cue alignment without reviewing installed source and raw annotations",
+    "Whether all preprocessing is independent across participants and sessions",
+    "Whether the decoding pipeline generalizes to another dataset"
+  ]
+}

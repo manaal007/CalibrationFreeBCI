@@ -1,0 +1,280 @@
+{
+  "experiment": "13c_preprocessing_integrity_audit",
+  "versions": {
+    "python": "3.12.10",
+    "moabb": "1.7.2",
+    "mne": "1.13.2"
+  },
+  "dataset_event_id": {
+    "left_hand": 1,
+    "right_hand": 2
+  },
+  "dataset_interval_s": [
+    0,
+    3
+  ],
+  "matlab_files": [],
+  "recordings": [
+    {
+      "session": "0",
+      "run": "0",
+      "sampling_hz": 512.0,
+      "n_samples": 717300,
+      "n_channels": 69,
+      "required_channel_count": 22,
+      "missing_required_channels": [],
+      "annotation_counts": {
+        "left_hand": 100,
+        "right_hand": 100
+      },
+      "unique_annotation_durations_s": [
+        3.0
+      ],
+      "first_annotation_onsets_s": [
+        1.998047,
+        8.998047,
+        15.998047,
+        22.998047,
+        29.998047,
+        36.998047,
+        43.998047,
+        50.998047,
+        57.998047,
+        64.998047
+      ],
+      "first_inter_annotation_intervals_s": [
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "raw_first_time_s": 0.0,
+      "raw_info_filter_bounds_hz": [
+        0.0,
+        256.0
+      ],
+      "raw_info_filter_bounds_are_not_acquisition_proof": true,
+      "annotation_boundary_probes": [
+        {
+          "annotation": "left_hand",
+          "onset_s": 1.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 1023,
+          "window_s": [
+            1.748046875,
+            2.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.00027146231922567545,
+            0.0002279785352515334,
+            0.00024444264163976496
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 8.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 4607,
+          "window_s": [
+            8.748046875,
+            9.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0005791586064608428,
+            0.0004306364887923063,
+            0.00039157805109510114
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 15.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 8191,
+          "window_s": [
+            15.748046875,
+            16.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0005939298416410099,
+            0.0005314209374144418,
+            0.0005809195196167483
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 22.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 11775,
+          "window_s": [
+            22.748046875,
+            23.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0010609726356473781,
+            0.0009730591244804061,
+            0.0007188804730765915
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 29.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 15359,
+          "window_s": [
+            29.748046875,
+            30.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.00033185200366955424,
+            0.0002724336532651722,
+            0.00031010412217256087
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 36.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 18943,
+          "window_s": [
+            36.748046875,
+            37.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0004146425767243528,
+            0.00036819142542378764,
+            0.00039240915352060506
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 43.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 22527,
+          "window_s": [
+            43.748046875,
+            44.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0003338923355566434,
+            0.0003224529218303294,
+            0.0002900038554124983
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 50.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 26111,
+          "window_s": [
+            50.748046875,
+            51.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0004206734600501094,
+            0.0003840091914453284,
+            0.00038633854103626913
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 57.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 29695,
+          "window_s": [
+            57.748046875,
+            58.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.00026093462896904405,
+            0.00022242891251021262,
+            0.00033664912618169997
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 64.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 33279,
+          "window_s": [
+            64.748046875,
+            65.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0003660822957147491,
+            0.000304248521013307,
+            0.00040125691778458716
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 71.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 36863,
+          "window_s": [
+            71.748046875,
+            72.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0003271452099366848,
+            0.00026858061548818096,
+            0.0002768906805758135
+          ]
+        },
+        {
+          "annotation": "left_hand",
+          "onset_s": 78.998047,
+          "duration_s": 3.0,
+          "sample_index_approx": 40447,
+          "window_s": [
+            78.748046875,
+            79.248046875
+          ],
+          "n_samples_examined": 256,
+          "zero_fraction_all_samples": 0.0,
+          "channel_std_volts": [
+            0.0004076346532585646,
+            0.00037914130704165197,
+            0.0003677999293506398
+          ]
+        }
+      ],
+      "bad_channels_in_mne": [],
+      "raw_annotations_do_not_necessarily_include_matlab_bad_trial_flags": true
+    }
+  ],
+  "important_limits": [
+    "Metadata and raw-data inspection only; no causal proof of event/cue timing.",
+    "MOABB reconstructed Raw may contain artificial trial boundaries and zero buffers.",
+    "Original acquisition reference cannot be established from MNE info alone.",
+    "MATLAB bad-trial fields are only inventoried; no trial is excluded.",
+    "No evidence of cross-dataset transfer is produced."
+  ]
+}

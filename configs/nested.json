@@ -1,0 +1,9 @@
+{
+  "subjects": [1,2,3,4,5,6,7,8,9],
+  "candidates": ["rms_csp4", "fbcsp2", "fbcsp4"],
+  "outer_splits": 3,
+  "inner_splits": 3,
+  "seed": 20261023,
+  "threshold_policy": "zero",
+  "artifact_policy": "retain"
+}

@@ -1,0 +1,27 @@
+{
+  "subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "candidates": [
+    "rms_csp_lda",
+    "aligned_csp"
+  ],
+  "alignment": "mean trace covariance whitening, 1 percent diagonal loading",
+  "target_batch_adaptation": true,
+  "target_labels_used": false,
+  "interpretation": "source LOSO development; alignment is unlabeled participant-batch adaptation, not inductive inference",
+  "artifact_policy": "retain flags",
+  "window_after_cue": [
+    0.5,
+    2.5
+  ],
+  "threshold": 0
+}

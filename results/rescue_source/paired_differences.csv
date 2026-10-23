@@ -1,0 +1,3 @@
+comparison,mean_difference,ci_low,ci_high,interpretation
+rms_csp_lda minus csp_lda,0.08487654320987655,0.03935185185185191,0.13541666666666663,exploratory; selected on same source folds
+rms_csp_lda minus oas_mdm,0.11458333333333333,0.06828703703703703,0.181712962962963,exploratory; selected on same source folds

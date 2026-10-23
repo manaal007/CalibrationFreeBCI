@@ -1,0 +1,17 @@
+{
+  "csp_lda": {
+    "file": "comparison_csp_lda.joblib",
+    "sha256": "f9016ff93d7e852a7eb77a1b3968532652abbbdca967ce6c3a63e237a3b579f1",
+    "threshold": 0
+  },
+  "oas_mdm": {
+    "file": "comparison_oas_mdm.joblib",
+    "sha256": "9e6fe48a7ff3bac7194688a95b0676dee82d486795737b1eb72ba31276d6ded9",
+    "threshold": 0
+  },
+  "rms_csp_lda": {
+    "file": "comparison_rms_csp_lda.joblib",
+    "sha256": "f011750def9ea02f49911957d6125a194d8990bd5f8a2ed0ca7e600e4d08ff41",
+    "threshold": 0
+  }
+}

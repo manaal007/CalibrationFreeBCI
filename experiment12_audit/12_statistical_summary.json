@@ -1,0 +1,17 @@
+{
+  "n_independent_participants": 9,
+  "mean_CSP_LDA": 0.7382973251028806,
+  "mean_Riemannian_MDM": 0.739786951303155,
+  "mean_paired_delta_MDM_minus_CSP": 0.0014896262002743743,
+  "participant_bootstrap_95pct_CI_delta": [
+    -0.05560913923182439,
+    0.057817858367626804
+  ],
+  "wilcoxon_statistic": 21.0,
+  "wilcoxon_two_sided_p": 0.91015625,
+  "participants_MDM_better": 4,
+  "participants_CSP_better": 5,
+  "minimum_subject_CSP_AUC": 0.5320216049382716,
+  "maximum_subject_CSP_AUC": 0.9889081790123457,
+  "caution": "Bootstrap is descriptive and unstable with n=9; no prospective external validation."
+}

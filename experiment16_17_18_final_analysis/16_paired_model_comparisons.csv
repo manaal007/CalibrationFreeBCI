@@ -1,0 +1,5 @@
+family,metric,n_paired,mean_tuned_minus_baseline,ci95_low,ci95_high,wilcoxon_p_exploratory
+CSP_LDA,auc,46,0.051990352938526885,0.02615802786616607,0.07731036268762595,0.0002951803997746083
+CSP_LDA,balanced_accuracy,46,-0.034572997062873534,-0.05628299130924763,-0.01585110260409271,0.000393543718542078
+Riemann_MDM,auc,46,0.0,0.0,0.0,
+Riemann_MDM,balanced_accuracy,46,0.0,0.0,0.0,

@@ -1,0 +1,260 @@
+{
+  "status": "SHAPE AND NUMERICAL CHECKS PASSED; NOT FROZEN",
+  "channels": [
+    "Fz",
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4",
+    "C5",
+    "C3",
+    "C1",
+    "Cz",
+    "C2",
+    "C4",
+    "C6",
+    "CP3",
+    "CP1",
+    "CPz",
+    "CP2",
+    "CP4",
+    "P1",
+    "Pz",
+    "P2",
+    "POz"
+  ],
+  "bandpass_hz": [
+    8.0,
+    30.0
+  ],
+  "sfreq_hz": 250,
+  "epoch_s": [
+    0.5,
+    2.5
+  ],
+  "outstanding": [
+    "Confirm Cho MATLAB physical units",
+    "Confirm Cho MATLAB row-to-electrode mapping against loader",
+    "Confirm common-reference scientific suitability",
+    "Validate full subject coverage and final leakage safeguards"
+  ],
+  "bnci_cache": "C:\\Users\\laptopwala\\.cache\\huggingface\\hub\\datasets--EEGDash--eeg-mi-datasets\\snapshots\\9cb977507faaecfb2bbfe5a6b52ee3f829fe54ea\\BNCI2014_001",
+  "source": {
+    "array": {
+      "shape": [
+        288,
+        22,
+        501
+      ],
+      "mean_absolute_raw_value": 1.711508852957062e-06,
+      "max_absolute_raw_value": 2.0985047207072225e-05
+    },
+    "class_counts": {
+      "right_hand": 144,
+      "left_hand": 144
+    },
+    "runs": [
+      {
+        "session": "0train",
+        "run": "0",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "0train",
+        "run": "1",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "0train",
+        "run": "2",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "0train",
+        "run": "3",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "0train",
+        "run": "4",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "0train",
+        "run": "5",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "1test",
+        "run": "0",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "1test",
+        "run": "1",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "1test",
+        "run": "2",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "1test",
+        "run": "3",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "1test",
+        "run": "4",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      },
+      {
+        "session": "1test",
+        "run": "5",
+        "event_mapping": {
+          "left_hand": "left_hand",
+          "right_hand": "right_hand"
+        },
+        "epochs": 24,
+        "raw_annotation_descriptions": [
+          "feet",
+          "left_hand",
+          "right_hand",
+          "tongue"
+        ]
+      }
+    ]
+  },
+  "target": {
+    "array": {
+      "shape": [
+        200,
+        22,
+        501
+      ],
+      "mean_absolute_raw_value": 68.737097621999,
+      "max_absolute_raw_value": 1781.1412073971585
+    },
+    "class_counts": {
+      "left_hand": 100,
+      "right_hand": 100
+    },
+    "metadata": {
+      "units": "UNVERIFIED original MATLAB units",
+      "row_mapping": "MOABB 64 EEG channel order; requires source-code confirmation",
+      "cue_sample_zero_based": 1023
+    }
+  }
+}

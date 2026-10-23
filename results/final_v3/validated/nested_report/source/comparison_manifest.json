@@ -1,0 +1,42 @@
+{
+  "rms_csp4": {
+    "file": "comparison_rms_csp4.joblib",
+    "sha256": "18043fb88eb27548b99a2d62403192714357d3574c55dfb0260fe96ee3fae10b",
+    "threshold": 0,
+    "input": "filterbank",
+    "bands": [
+      [
+        8.0,
+        30.0
+      ],
+      [
+        8.0,
+        12.0
+      ],
+      [
+        12.0,
+        18.0
+      ],
+      [
+        18.0,
+        24.0
+      ],
+      [
+        24.0,
+        30.0
+      ]
+    ]
+  },
+  "csp_lda": {
+    "file": "comparison_csp_lda.joblib",
+    "sha256": "7b83ed189807cef6b968bf7aca2f24b63e5fde5c770b348e8f05be5d62a06fee",
+    "threshold": 0,
+    "input": "epochs"
+  },
+  "oas_mdm": {
+    "file": "comparison_oas_mdm.joblib",
+    "sha256": "c0e44f061082df8a6ff17d98a62c13e9430f5b7bbbb2084dcb591be51c6a622d",
+    "threshold": 0,
+    "input": "epochs"
+  }
+}

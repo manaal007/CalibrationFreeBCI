@@ -1,0 +1,24 @@
+{
+  "experiments": [
+    "16",
+    "17",
+    "18"
+  ],
+  "status": "COMPLETE",
+  "confirmatory_participants": 46,
+  "cohort_complete": true,
+  "bad_trial_index_policy_verified": false,
+  "scientific_status": "PROVISIONAL",
+  "bootstrap_seed": 20261023,
+  "bootstrap_replicates": 5000,
+  "bootstrap_unit": "participant",
+  "model_training": false,
+  "threshold_tuning": false,
+  "inference_notes": [
+    "CIs reflect participant sampling only; do not resolve preprocessing uncertainty.",
+    "Wilcoxon p-values are exploratory and unadjusted for multiple comparisons.",
+    "No statistical claims of above-chance generalization from AUC point estimates alone.",
+    "Previously inspected subjects 1..6 are excluded from confirmatory analysis.",
+    "The source-trained fixed threshold is never recalibrated on Cho labels."
+  ]
+}

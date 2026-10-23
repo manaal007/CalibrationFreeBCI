@@ -1,0 +1,9 @@
+{
+  "dataset": "PhysioNet EEGMMIDB 1.0.0",
+  "subjects": [1,2,3,4,5],
+  "owner_confirmed": false,
+  "previously_used": null,
+  "evaluation_approved": true,
+  "authorization": "User requested: run whatecer is left nd implement it",
+  "notes": "Evaluation is authorized. Prior decoding exposure has not been confirmed; results must remain provisional and must not be described as confirmatory. No earlier PhysioNet decoding references were found in numbered historical scripts."
+}

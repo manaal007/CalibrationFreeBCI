@@ -1,0 +1,8 @@
+{
+  "mean_difference": 0.03703703703703703,
+  "participant_ci": [
+    0.008487654320987512,
+    0.06404320987654327
+  ],
+  "limitation": "source development; only nine participants; no independent confirmation"
+}

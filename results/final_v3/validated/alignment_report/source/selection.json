@@ -1,0 +1,7 @@
+{
+  "model": "aligned_csp",
+  "threshold": 0,
+  "input": "epochs",
+  "participant_batch_adaptation": true,
+  "model_sha256": "2fcad4ef050f75d72347e1196de7c9dd22ed458badef7d4d8c26b54e9eccadb9"
+}

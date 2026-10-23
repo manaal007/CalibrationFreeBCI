@@ -1,0 +1,771 @@
+{
+  "experiment": "15",
+  "scope": "single-target-subject external pilot",
+  "source_dataset": "BNCI2014-001",
+  "source_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "target_dataset": "Cho2017",
+  "target_subjects": [
+    1
+  ],
+  "target_training_or_calibration": false,
+  "channels": [
+    "Fz",
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4",
+    "C5",
+    "C3",
+    "C1",
+    "Cz",
+    "C2",
+    "C4",
+    "C6",
+    "CP3",
+    "CP1",
+    "CPz",
+    "CP2",
+    "CP4",
+    "P1",
+    "Pz",
+    "P2",
+    "POz"
+  ],
+  "bandpass_hz": [
+    8.0,
+    30.0
+  ],
+  "sample_rate_hz": 250,
+  "window_after_class_marker_seconds": [
+    0.5,
+    2.5
+  ],
+  "source_reference": "average of 22 common electrodes",
+  "target_reference": "average of 22 common electrodes",
+  "target_units_conversion": "MATLAB microvolts multiplied by 1e-6 to volts",
+  "source_filtering": "continuous run, before epoching",
+  "target_filtering": "each original 7-second trial, before epoching",
+  "models": {
+    "CSP_LDA": "CSP 4 components, Ledoit-Wolf regularization, LDA",
+    "Riemann_MDM": "OAS covariance, Riemannian MDM"
+  },
+  "status": "PILOT COMPLETED; FULL COHORT NOT EVALUATED",
+  "caveats": [
+    "Source and target acquisition references, cue semantics and temporal preprocessing are not fully equivalent.",
+    "A single Cho participant cannot support a population-level generalization claim.",
+    "No target-driven tuning is permitted; subsequent full-cohort analysis needs prespecified trial exclusions.",
+    "Filtering and resampling choices should be reported transparently."
+  ],
+  "bnci_cache": "C:\\Users\\laptopwala\\.cache\\huggingface\\hub\\datasets--EEGDash--eeg-mi-datasets\\snapshots\\9cb977507faaecfb2bbfe5a6b52ee3f829fe54ea\\BNCI2014_001",
+  "source_shape": [
+    2592,
+    22,
+    501
+  ],
+  "source_runs": [
+    {
+      "subject": 1,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 1,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 2,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 3,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 4,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 5,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 6,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 7,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 8,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "0train",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "0train",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "0train",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "0train",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "0train",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "0train",
+      "run": "5",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "1test",
+      "run": "0",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "1test",
+      "run": "1",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "1test",
+      "run": "2",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "1test",
+      "run": "3",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "1test",
+      "run": "4",
+      "trials": 24
+    },
+    {
+      "subject": 9,
+      "session": "1test",
+      "run": "5",
+      "trials": 24
+    }
+  ],
+  "target_shape": [
+    200,
+    22,
+    501
+  ],
+  "cho_matlab_row_indices": [
+    37,
+    9,
+    10,
+    46,
+    45,
+    44,
+    13,
+    12,
+    11,
+    47,
+    48,
+    49,
+    50,
+    17,
+    18,
+    31,
+    55,
+    54,
+    19,
+    30,
+    56,
+    29
+  ],
+  "results": [
+    {
+      "model": "CSP_LDA",
+      "roc_auc": 0.528,
+      "balanced_accuracy": 0.495,
+      "accuracy": 0.495,
+      "n_target_trials": 200
+    },
+    {
+      "model": "Riemann_MDM",
+      "roc_auc": 0.7746999999999999,
+      "balanced_accuracy": 0.5,
+      "accuracy": 0.5,
+      "n_target_trials": 200
+    }
+  ]
+}
