@@ -24,6 +24,7 @@ def inventory(root):
     """Hash original scripts and outputs, without importing or executing scripts."""
     rows = []
     paths = list(root.glob("*.py")) + list(root.glob("*.csv")) + list(root.glob("*.png"))
+    paths.extend(path for path in (root / 'legacy').rglob('*.py') if path.is_file())
     for directory in sorted(root.glob("experiment*")):
         if directory.is_dir():
             paths.extend(p for p in directory.rglob("*") if p.is_file())

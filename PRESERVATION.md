@@ -8,6 +8,11 @@ Excluded: Git metadata, virtual environment, IDE settings, bytecode and the sepa
 Read-only plus checksum provides tamper detection, not hardware-enforced immutability.
 Keep a separate offline copy for archival storage. The original repository had no commits.
 
+After publication, the historical root scripts were relocated byte-for-byte to
+`legacy/`. Existing experiment outputs were left in place. The archive retains
+the original layout, and the pre-move Git history remains available. The
+corrected supported `04_motor_imagery_epochs.py` and `main.py` remain at root.
+
 Before the second implementation pass, `rescue_before_final_v2.zip` also preserved
 the first rescue package, tests, documentation, outputs and saved models. Its
 read-only attribute is set. Subsequent v2 float32 filter-bank outputs remain in

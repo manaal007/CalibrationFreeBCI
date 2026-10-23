@@ -4,11 +4,19 @@
 
 Reproducible CPU research on left-versus-right motor imagery EEG decoding across participants and datasets, without supervised target calibration. Works with local data on Windows/PyCharm.
 
+Can a system learn imagined left- and right-hand movements from one EEG study and recognize them in another? This project builds and tests that pipeline. Across five people in a second study, the aligned model averaged 60.4% balanced accuracy versus 56.1% for the baseline. Results varied widely and do not yet show reliable generalization. Alignment uses each new person's unlabeled recordings.
+
+![Frozen PhysioNet results for all five participants; dashed line indicates chance](results/physionet_external_v4/participant_comparison.png)
+
+*Each point is a participant. Two aligned-model results were below chance; all participants are retained. This evaluation is provisional, with cohort independence unconfirmed.*
+
+[Read the draft preprint](docs/PREPRINT.md) · [Full external results and uncertainty](results/physionet_external_v4/REPORT.md)
+
 **Current external evidence:** In a frozen, provisional BNCI-to-PhysioNet evaluation on five participants, aligned CSP achieved **60.4% participant-mean balanced accuracy** (95% participant-bootstrap interval **43.3–76.6%**) versus **56.1%** for RMS/CSP. The paired improvement interval includes zero; reliable population-level improvement is **not established**. Prior participant exposure was not confirmed, so these results are not called confirmatory.
 
 Source LOSO balanced accuracy was 73.3% for aligned CSP versus 69.6% for RMS/CSP. A previously examined Cho participant yielded exploratory balanced accuracy 69.5%. Alignment uses an **unlabeled participant batch**, not strict single-trial inference. See the [complete external report](results/physionet_external_v4/REPORT.md), including below-chance participants. No thresholds or models were tuned on PhysioNet outcomes.
 
-The original experiments are preserved. A corrected, supported package replaces the numbered scripts as the execution path. Historical scripts remain evidence and are not all supported entry points.
+The original experiments are preserved in [legacy/](legacy/). Use the supported `calibrationfreebci` package to run the pipeline. The corrected `04_motor_imagery_epochs.py` visualization and `main.py` entry point remain at the root.
 
 ## Research Questions and Hypotheses
 
