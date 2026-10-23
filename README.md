@@ -10,6 +10,24 @@ Source LOSO balanced accuracy was 73.3% for aligned CSP versus 69.6% for RMS/CSP
 
 The original experiments are preserved. A corrected, supported package replaces the numbered scripts as the execution path. Historical scripts remain evidence and are not all supported entry points.
 
+## Research Questions and Hypotheses
+
+The following hypotheses summarize the research comparisons examined during project development. They were not prospectively preregistered and should not be interpreted as confirmatory hypotheses.
+
+**H1 — Cross-participant decoding:** Motor imagery EEG contains discriminative information that permits above-chance left-versus-right classification in held-out source participants.
+
+**H2 — Participant alignment:** Unsupervised participant-wise covariance alignment may improve balanced accuracy relative to the fixed RMS-normalized CSP baseline during cross-participant evaluation.
+
+**H3 — Cross-dataset transfer:** Models trained on BNCI2014-001 may retain some decoding performance when applied to recordings from other datasets without supervised target calibration.
+
+**H4 — Generalization variability:** Cross-dataset performance may vary substantially across target participants because of physiological, recording, and distributional differences.
+
+### Interpretation
+
+The source results provide descriptive support for cross-participant decoding and an alignment advantage during development. Exploratory Cho2017 results and provisional PhysioNet results demonstrate technical cross-dataset inference, but they do not establish reliable population-level generalization or a statistically supported alignment advantage.
+
+These hypotheses describe the study's research aims retrospectively; no claim of preregistration or prospective confirmation is made.
+
 ## Install and run
 
 Use Python 3.12. From the repository root in PowerShell:
