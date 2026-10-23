@@ -14,7 +14,7 @@ Approval to run was received; no repeat approval is required for reproducing it.
 | Repeatability | PASS: predictions.csv and participant_metrics.csv are byte-identical across three runs, including installed-wheel execution outside the source tree |
 | Reports and figures | PASS: participant tables, bootstrap intervals, paired comparison, PNG/SVG class and participant figures, Markdown report |
 | Publication file checks | PASS: Git-visible tree checked for raw EEG, local environments, model/archive files and files over 50 MiB; none found |
-| GitHub CI | IMPLEMENTED: Windows/Python 3.12 install and test workflow; first remote execution remains pending a push |
+| GitHub CI | PASS: first remote Windows/Python 3.12 pinned installation and test run succeeded; see publication record |
 | Independent scientific success | NOT ESTABLISHED: cohort exposure history unconfirmed; accuracy interval includes chance and improvement interval includes zero |
 
 Primary external outcome: aligned CSP participant-mean balanced accuracy
@@ -33,7 +33,9 @@ Evidence:
 
 The original archive and earlier run directories remain preserved. This cohort
 is now exposed; further tuning requires a new independent cohort for a fresh
-confirmation. No GitHub remote was supplied and no push was performed.
+confirmation. The project has now been published to
+[manaal007/CalibrationFreeBCI](https://github.com/manaal007/CalibrationFreeBCI)
+on `main`; the first remote CI run passed. See [publication record](PUBLICATION.md).
 
 ## Historical v3 acceptance record — before the authorized PhysioNet run
 

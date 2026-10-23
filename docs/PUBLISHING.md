@@ -19,7 +19,8 @@ publishing. Never use `git add -f` on datasets, caches or preservation archives.
 
 The GitHub Actions workflow installs the pinned environment and runs tests on
 Windows/Python 3.12. It does not download EEG datasets or run external evaluation.
-Its first remote execution is pending publication; local tests have actually run.
+Its [first remote execution passed](https://github.com/manaal007/CalibrationFreeBCI/actions/runs/39964815136),
+including pinned installation and the test suite on Windows/Python 3.12.
 
 Use a truthful repository description, for example:
 
@@ -33,6 +34,6 @@ participants. Its cohort history remains unconfirmed. Preserve the full results.
 The publication target is
 [manaal007/CalibrationFreeBCI](https://github.com/manaal007/CalibrationFreeBCI).
 The local verified snapshot was committed before merging the existing GitHub
-README history. Publication uses `main` without a force-push; the original
+README history. The project was pushed to `main` without a force-push; the original
 research branch and preservation archives remain available locally. Check the
 repository's Actions tab for the actual remote CI outcome.
